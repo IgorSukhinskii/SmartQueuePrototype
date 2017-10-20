@@ -1,0 +1,36 @@
+.queue__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 60px;
+}
+.queue__item:nth-child(odd) {
+    background-color: #B0BEC5;
+}
+.queue__item:nth-child(even) {
+    background-color: #CFD8DC;
+}
+.queue__item--A {
+    background-color: palegreen !important;
+}
+.queue__item--B {
+    background-color: paleturquoise !important;
+}
+.queue__item--C {
+    background-color: palegoldenrod !important;
+}
+.queue__number {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 60px;
+    display: inline-block;
+    flex: 1;
+}
+.queue__item--now .queue__number {
+    font-weight: bold;
+}
+.queue__time {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 40px;
+    display: inline-block;
+}
